@@ -57,8 +57,7 @@ product.
 In Druid, on the other hand, it is common to use totally flat datasources that do not require joins at query time. In
 the example of the "sales" table, in Druid it would be typical to store "product_id", "product_name", and
 "product_category" as dimensions directly in a Druid "sales" datasource, without using a separate "products" table.
-Totally flat schemas substantially increase performance, since the need for joins is eliminated at query time. As an
-an added speed boost, this also allows Druid's query layer to operate directly on compressed dictionary-encoded data.
+Totally flat schemas substantially increase performance, since the need for joins is eliminated at query time. As an added speed boost, this also allows Druid's query layer to operate directly on compressed dictionary-encoded data.
 Perhaps counter-intuitively, this does _not_ substantially increase storage footprint relative to normalized schemas,
 since Druid uses dictionary encoding to effectively store just a single integer per row for string columns.
 
