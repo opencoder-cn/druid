@@ -128,7 +128,7 @@ Click `Next: Tune` to go to the tuning step.
 ![Data loader tune](../assets/tutorial-kafka-data-loader-07.png "Data loader tune")
 
 In the `Tune` step is it *very important* to set `Use earliest offset` to `True` since we want to consume the data from the start of the stream.
-There are no other changes that need to be made hear, so click `Next: Publish` to go to the `Publish` step.
+There are no other changes that need to be made here, so click `Next: Publish` to go to the `Publish` step.
 
 ![Data loader publish](../assets/tutorial-kafka-data-loader-08.png "Data loader publish")
 
@@ -150,7 +150,7 @@ You will be taken to the task view with the focus on the newly created superviso
 
 The task view is set to auto refresh, wait until your supervisor launches a task.
 
-When a tasks starts running, it will also start serving the data that it is ingesting.
+When a task starts running, it will also start serving the data that it is ingesting.
 
 Navigate to the `Datasources` view from the header.
 
