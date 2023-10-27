@@ -35,7 +35,7 @@ This service is provided in the `druid-kafka-indexing-service` core Apache Druid
 
 > The Kafka indexing service supports transactional topics which were introduced in Kafka 0.11.x. These changes make the
 > Kafka consumer that Druid uses incompatible with older brokers. Ensure that your Kafka brokers are version 0.11.x or
-> better before using this functionality. Refer [Kafka upgrade guide](https://kafka.apache.org/documentation/#upgrade)
+> higher before using this functionality. Refer [Kafka upgrade guide](https://kafka.apache.org/documentation/#upgrade)
 > if you are using older version of Kafka brokers.
 
 ## Tutorial
