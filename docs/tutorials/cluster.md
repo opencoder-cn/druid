@@ -362,8 +362,8 @@ New Historical (on 2 Data servers)
 
 ```
  druid.processing.buffer.sizeBytes=500000000
- druid.processing.numMergeBuffers=8
- druid.processing.numThreads=31
+ druid.processing.numMergeBuffers=4
+ druid.processing.numThreads=15
 ```
 
 New MiddleManager (on 2 Data servers)
